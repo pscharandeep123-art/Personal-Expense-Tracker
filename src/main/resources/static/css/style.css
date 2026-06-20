@@ -1,0 +1,64 @@
+:root {
+    --app-bg: #f4f7fb;
+    --app-primary: #2563eb;
+    --app-primary-dark: #1d4ed8;
+}
+
+body {
+    background: var(--app-bg);
+    color: #1f2937;
+}
+
+.login-page {
+    background:
+        linear-gradient(135deg, rgba(37, 99, 235, 0.12), rgba(16, 185, 129, 0.10)),
+        var(--app-bg);
+}
+
+.navbar.bg-primary,
+.btn-primary {
+    background-color: var(--app-primary) !important;
+    border-color: var(--app-primary) !important;
+}
+
+.btn-primary:hover {
+    background-color: var(--app-primary-dark) !important;
+    border-color: var(--app-primary-dark) !important;
+}
+
+.card {
+    border-radius: 8px;
+}
+
+.summary-card {
+    min-height: 100%;
+}
+
+.category-box {
+    background: #f8fafc;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 12px;
+}
+
+.table td,
+.table th {
+    vertical-align: middle;
+}
+
+.delete-form {
+    display: inline;
+}
+
+/* Click animations for interactive elements */
+.nav-link, .btn, .navbar-brand {
+    transition: transform 0.1s ease, background-color 0.2s ease, border-color 0.2s ease, opacity 0.2s ease !important;
+}
+
+.nav-link:active, .btn:active, .navbar-brand:active {
+    transform: scale(0.92);
+    opacity: 0.8;
+}

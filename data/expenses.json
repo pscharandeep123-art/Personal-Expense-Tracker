@@ -1,0 +1,25 @@
+[ {
+  "id" : 1,
+  "title" : "Lunch",
+  "amount" : 180.00,
+  "category" : "FOOD",
+  "date" : "2026-06-10",
+  "description" : "College canteen",
+  "username" : "student"
+}, {
+  "id" : 2,
+  "title" : "Bus Pass",
+  "amount" : 450.00,
+  "category" : "TRAVEL",
+  "date" : "2026-06-09",
+  "description" : "Monthly travel pass",
+  "username" : "student"
+}, {
+  "id" : 3,
+  "title" : "mobile recharge",
+  "amount" : 350,
+  "category" : "ENTERTAINMENT",
+  "date" : "2026-06-11",
+  "description" : "jio recharge",
+  "username" : "student"
+} ]
